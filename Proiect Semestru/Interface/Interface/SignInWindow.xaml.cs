@@ -10,27 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EasyRentWin
+namespace Interface
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SignInWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SignInWindow : Window
     {
-        public MainWindow()
+        public SignInWindow()
         {
             InitializeComponent();
         }
-
-        private void btnSave_Click(object sender, RoutedEventArgs e)
-        {
-            EasyRentDBDataContext dBDataContext = new EasyRentDBDataContext();
-            dBDataContext.SubmitChanges();
-        }
-
-        
     }
 }

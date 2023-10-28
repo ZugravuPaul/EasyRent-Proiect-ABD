@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EasyRentWin
+namespace Interface
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,14 +23,14 @@ namespace EasyRentWin
         public MainWindow()
         {
             InitializeComponent();
+           
         }
 
-        private void btnSave_Click(object sender, RoutedEventArgs e)
+        private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
-            EasyRentDBDataContext dBDataContext = new EasyRentDBDataContext();
-            dBDataContext.SubmitChanges();
+            SignInWindow signIn = new SignInWindow();
+            signIn.Owner = this;
+            signIn.ShowDialog();
         }
-
-        
     }
 }
