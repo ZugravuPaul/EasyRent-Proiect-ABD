@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EasyRentDataBase", "EasyRentDataBase\EasyRentDataBase.sqlproj", "{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyRentWin", "EasyRentWin\EasyRentWin.csproj", "{9BA8D4E5-4CBC-4A16-9B29-1CE1D564481B}"
 EndProject
 Global
@@ -13,12 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94BDF8C5-CE8F-4CBD-89EF-87F2BD0B6B6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{9BA8D4E5-4CBC-4A16-9B29-1CE1D564481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BA8D4E5-4CBC-4A16-9B29-1CE1D564481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BA8D4E5-4CBC-4A16-9B29-1CE1D564481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
