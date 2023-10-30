@@ -1,0 +1,34 @@
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\MainWindow.g.cs
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\App.g.cs
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface_MarkupCompile.cache
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface_MarkupCompile.lref
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\MainWindow.baml
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.g.resources
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\SignInWindow.g.cs
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Debug\SignInWindow.baml
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\bin\Debug\Interface.exe.config
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\bin\Debug\Interface.exe
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\bin\Debug\Interface.pdb
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.csproj.AssemblyReference.cache
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\MainWindow.g.cs
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\SignInWindow.g.cs
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\App.g.cs
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface_MarkupCompile.cache
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface_MarkupCompile.lref
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\MainWindow.baml
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\SignInWindow.baml
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.g.resources
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.exe
+D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.pdb
