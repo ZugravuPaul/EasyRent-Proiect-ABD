@@ -51,5 +51,21 @@ namespace Interface
             logIn.Owner = this;
             logIn.ShowDialog();
         }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Imaginea a fost mărită sau fereastra a fost deschisă.");
+
+        }
+
+        private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Imaginea a fost mărită sau fereastra a fost deschisă.");
+        }
+
+        private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Imaginea a fost mărită sau fereastra a fost deschisă.");
+        }
     }
 }
