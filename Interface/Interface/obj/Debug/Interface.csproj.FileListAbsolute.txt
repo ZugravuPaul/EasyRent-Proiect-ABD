@@ -32,14 +32,16 @@ D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.cspro
 D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.exe
 D:\Facultate\ANUL III\ABD\EasyRent\Interface\Interface\obj\Debug\Interface.pdb
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.exe.config
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.exe
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\LogInWindow.g.cs
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\MainWindow.g.cs
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\SignInWindow.g.cs
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\App.g.cs
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\Interface_MarkupCompile.cache
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\Interface_MarkupCompile.lref
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\LogInWindow.baml
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\MainWindow.baml
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\SignInWindow.baml
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Baze\Interface\Interface\obj\Debug\Interface.g.resources
