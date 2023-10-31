@@ -44,5 +44,12 @@ namespace Interface
             }
         }
 
+        private void btnLogIn_Click(object sender, RoutedEventArgs e)
+        {
+
+            LogInWindow logIn = new LogInWindow();
+            logIn.Owner = this;
+            logIn.ShowDialog();
+        }
     }
 }
