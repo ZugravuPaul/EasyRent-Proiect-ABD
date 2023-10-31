@@ -2,6 +2,8 @@
 1.link_to_sql
 2. entity_framework
 
+Full Name in BD
+
  EasyRentDBDataContext db=new EasyRentDBDataContext(Properties.Settings.Default.EasyRentDataBaseConnectionString);
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
