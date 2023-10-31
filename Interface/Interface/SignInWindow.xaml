@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interface"
         mc:Ignorable="d"
-        Title="SignInWindow" Height="600" Width="500"
+        Title="Sign In" Height="600" Width="500"
         WindowStartupLocation="CenterOwner">
-    <Grid>
+    <Grid Background="White">
         <TextBlock HorizontalAlignment="Left" Margin="172,10,0,0" TextWrapping="Wrap" Text="Welcome to EasyRent" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" Width="168"/>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="87,70,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="87,140,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="87,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="87,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253"/>
-        <Button Content="Sign In" HorizontalAlignment="Left" Margin="87,248,0,0" VerticalAlignment="Top" Width="253" Height="41" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="100,205,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="100,295,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.912,0.533" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="100,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="100,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Margin="100,430,0,0" VerticalAlignment="Top" Width="294" Height="41" FontSize="20" FontFamily="Segoe UI Semibold" BorderBrush="#FF4C8689" Background="#FF609792" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="163" Margin="0,37,-0.4,0" VerticalAlignment="Top" Width="494" Source="background.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>

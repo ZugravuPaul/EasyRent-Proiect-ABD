@@ -32,5 +32,17 @@ namespace Interface
             signIn.Owner = this;
             signIn.ShowDialog();
         }
+
+        private void TextBox_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            if (textBox.Text == "Enter an address, city or ZIP code...")
+            {
+                textBox.Text = "";
+                textBox.FontStyle = FontStyles.Normal;
+                textBox.Foreground = Brushes.Black;
+            }
+        }
+
     }
 }
