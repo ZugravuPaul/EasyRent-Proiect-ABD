@@ -1,0 +1,22 @@
+USE [EasyRent]
+GO
+
+INSERT INTO [dbo].[Users]
+           ([Username]
+           ,[Password]
+           ,[Email]
+           ,[PhoneNumber]
+           ,[Role]
+           ,[Name]
+           ,[Photo])
+     VALUES
+           (<Username, nvarchar(50),>
+           ,<Password, nvarchar(50),>
+           ,<Email, nvarchar(50),>
+           ,<PhoneNumber, nchar(10),>
+           ,<Role, nvarchar(50),>
+           ,<Name, nvarchar(50),>
+           ,<Photo, varbinary(max),>)
+GO
+
+
