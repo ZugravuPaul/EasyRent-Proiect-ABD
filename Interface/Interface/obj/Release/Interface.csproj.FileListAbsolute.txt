@@ -1,5 +1,0 @@
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Release\MainWindow.g.cs
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Release\App.g.cs
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Release\Interface_MarkupCompile.cache
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Release\Interface_MarkupCompile.lref
-C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect Semestru\Interface\Interface\obj\Release\Interface.csproj.AssemblyReference.cache
