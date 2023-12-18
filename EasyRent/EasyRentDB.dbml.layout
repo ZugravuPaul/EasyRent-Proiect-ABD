@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EasyRentDB">
+  <DataContextMoniker Name="/EasyRentDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4175623a-f2e6-472a-930c-90b26ca91688" absoluteBounds="4.125, 1.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/EasyRentDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1eeb2057-1d3e-471b-a24e-9dccd95ed829" absoluteBounds="4.14, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
