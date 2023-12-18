@@ -14,9 +14,6 @@ using System.Windows.Shapes;
 
 namespace EasyRent
 {
-    /// <summary>
-    /// Interaction logic for LogInWindow.xaml
-    /// </summary>
     public partial class LogInWindow : Window
     {
         public LogInWindow()
@@ -29,7 +26,7 @@ namespace EasyRent
             EasyRentDBDataContext dBDataContext = new EasyRentDBDataContext();
 
             string enteredUsername = txtUsername.Text;
-            string enteredPassword = txtPassword.Text; // Use Password property for password boxes
+            string enteredPassword = txtPassword.Text; 
 
             var users = from user in dBDataContext.Users
                         select user;
@@ -38,6 +35,13 @@ namespace EasyRent
             {
                 if (user.Password == enteredPassword && user.Username == enteredUsername)
                 {
+
+                    MainWindow mainWindow = (MainWindow)Owner;
+                    MainWindow.UserName=user.Username;
+                    mainWindow.btnLogIn.Visibility = Visibility.Collapsed;
+                    mainWindow.btnSignIn.Visibility = Visibility.Collapsed;
+                    mainWindow.btnShowProfile.Visibility = Visibility.Visible;
+                    mainWindow.btnShowProfile.Content=user.Username;
                     this.Close();
                     return; 
                 }

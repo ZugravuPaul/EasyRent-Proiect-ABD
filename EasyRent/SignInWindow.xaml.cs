@@ -19,9 +19,6 @@ using System.IO;
 
 namespace EasyRent
 {
-    /// <summary>
-    /// Interaction logic for SignInWindow.xaml
-    /// </summary>
     public partial class SignInWindow : Window
     {
         public SignInWindow()
@@ -81,6 +78,8 @@ namespace EasyRent
 
             return data;
         }
+
+
 
 
     }

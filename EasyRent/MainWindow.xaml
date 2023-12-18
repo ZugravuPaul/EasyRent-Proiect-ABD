@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:EasyRent"
         mc:Ignorable="d"
         Title="MainWindow" Height="750" Width="1100">
-
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="130*"/>
@@ -20,14 +20,14 @@
         </Grid.RowDefinitions>
         <StackPanel HorizontalAlignment="Left" Height="29" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="1094" Grid.ColumnSpan="4">
         </StackPanel>
-        <Button x:Name="btnLogIn" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="28" Grid.Column="3" Margin="101.2,0,0,239.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnLogIn_Click"/>
-        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Height="29" Grid.Column="3" Margin="10,0,0,239.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnSignIn_Click"/>
-
+        <Button x:Name="btnLogIn" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="29" Grid.Column="3" Margin="176.2,0,-0.4,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnLogIn_Click"/>
+        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Height="29" Grid.Column="3" Margin="101.2,0,0,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnSignIn_Click"/>
+        <Button x:Name="btnShowProfile" Content="Profile" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="29" Grid.Column="3" Margin="176.2,0,-0.4,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Visibility="Collapsed" Click="btnShowProfile_Click"/>
         <Image Height="306" Margin="0,28,-0.4,0" VerticalAlignment="Top" Source="Homes.jpg" Stretch="Fill" Grid.RowSpan="2" Grid.ColumnSpan="4"/>
-        <TextBlock HorizontalAlignment="Left" Margin="273.6,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="267" FontSize="20" Foreground="White" TextAlignment="Center" IsHyphenationEnabled="True" FontFamily="Segoe UI Semibold" Grid.RowSpan="2" Grid.Column="1"><Run Text="Agents. T"/><Run Text="ours. Loans. "/><Run Text="H"/><Run Text="omes"/><Run Text="."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="240.6,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="362" FontSize="22" Foreground="White" TextAlignment="Center" IsHyphenationEnabled="True" FontFamily="Segoe UI Semibold" Grid.Column="1" Grid.RowSpan="2"><Run Text="Agents. T"/><Run Text="ours. Loans. "/><Run Text="H"/><Run Text="omes"/><Run Text="."/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="374.6,1,0,0" TextWrapping="Wrap" Text="EasyRent" VerticalAlignment="Top" Height="29" FontSize="22" FontFamily="Showcard Gothic" Foreground="#FF605E5E" ForceCursor="True" TextAlignment="Center" RenderTransformOrigin="1.858,1.066" Width="125" Grid.Column="1"/>
 
-        <Image HorizontalAlignment="Left" Height="27" Margin="334.6,2,0,0" VerticalAlignment="Top" Width="40" Source="LogoRent.png" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="334.6,2,0,0" VerticalAlignment="Top" Width="40" Source="LogoRent.png" Grid.Column="1"/>
         <StackPanel HorizontalAlignment="Left" Height="260" Margin="29,104.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="300" Grid.ColumnSpan="2">
             <Border x:Name="border1" Width="Auto" Height="Auto">
                 <Border.RenderTransform>
@@ -127,7 +127,13 @@
             <TextBlock TextWrapping="Wrap" Height="53" FontSize="18" FontFamily="Segoe UI Semibold" TextAlignment="Center"><Run/><LineBreak/><Run Text="Rent a home"/></TextBlock>
             <TextBlock TextWrapping="Wrap" FontSize="18" FontFamily="Times New Roman" TextAlignment="Center" Height="72"><Run Text="House for Rent: Unique Opportunity for Comfort and Convenience"/><Run Text="!"/></TextBlock>
         </StackPanel>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="273.6,29.8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" Grid.Row="1"/>
+        <Border Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top"
+        Margin="273.6,23.8,0,0" Width="300" Height="26" CornerRadius="10"
+        Background="#80FFFFFF" Opacity="0.8">
+            <TextBox TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+             BorderThickness="0" Background="Transparent" Margin="10,0,10,-0.4"/>
+        </Border>
+
 
     </Grid>
 </Window>

@@ -26,11 +26,11 @@
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="13,172.6,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="181"/>
         <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="23" Margin="13,242.6,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="181"/>
         <TextBox x:Name="txtRole" HorizontalAlignment="Left" Height="23" Margin="13,312.6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Enter agent or user" VerticalAlignment="Top" Width="181"/>
-        <Button x:Name="btnUpload" Content="Upload" HorizontalAlignment="Left" Margin="356,106,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.RowSpan="2" Click="btnUpload_Click"/>
+        <Button x:Name="btnUpload" Content="Upload" HorizontalAlignment="Left" Margin="372,65.6,0,0" VerticalAlignment="Top" Width="67" Height="22" Click="btnUpload_Click" Grid.Row="1"/>
         <Grid HorizontalAlignment="Left" Height="100" Margin="356,106,0,0" VerticalAlignment="Top" Width="100" Grid.RowSpan="2"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="324,107.6,0,0" VerticalAlignment="Top" Width="100" Grid.Row="1"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="356,106,0,0" VerticalAlignment="Top" Width="100" Source="unknown.png" Grid.RowSpan="2"/>
         <Image HorizontalAlignment="Left" Height="0" Margin="424,172.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="15"/>
-        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" Margin="133,340.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="182" Height="59" Click="btnSignIn_Click"/>
+        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" Margin="165,340.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="164" Height="40" Click="btnSignIn_Click"/>
 
     </Grid>
 </Window>

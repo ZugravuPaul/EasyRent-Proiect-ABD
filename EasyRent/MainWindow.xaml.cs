@@ -13,43 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace EasyRent
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
+        private Profile profile;
+        public static string UserName = null;
         public MainWindow()
         {
             InitializeComponent();
-            //try
-            //{
-            //    EasyRentDBDataContext DB = new EasyRentDBDataContext();
-            //    var userE = new User
-            //    {
-            //        Username = "aaa",
-            //        Password = "aaa",
-            //        Email = "bbb",
-            //        Photo = null,
-            //        PhoneNumber = "0745897455",
-            //        Role = "agent", 
-            //        Name="aa"
-
-            //    };
-            //    DB.Users.InsertOnSubmit(userE);
-            //    DB.SubmitChanges();
-            //    var users = from user in DB.Users
-            //                select user;
-            //    foreach (User user in users)
-            //    {
-            //        Console.WriteLine(user.Email);
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"Eroare la inserare: {ex.Message}");
-            //}
+            WindowStartupLocation = WindowStartupLocation.Manual;
+            Left = 100; // Setează poziția pe axa X
+            Top = 50;  // Setează poziția pe axa Y
+           
         }
 
         private void btnLogIn_Click(object sender, RoutedEventArgs e)
@@ -57,7 +35,6 @@ namespace EasyRent
             LogInWindow logInWindow = new LogInWindow();
             logInWindow.Owner = this;
             logInWindow.ShowDialog();
-
         }
 
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
@@ -66,6 +43,17 @@ namespace EasyRent
             signInWindow.Owner = this;
             signInWindow.ShowDialog();
         }
+      
+        private void btnShowProfile_Click(object sender, RoutedEventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.ShowDialog();
+            //this.Close();
+
+        }
+
+
+
     }
 
 

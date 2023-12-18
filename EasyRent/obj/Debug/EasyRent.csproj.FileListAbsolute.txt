@@ -17,3 +17,5 @@ C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyR
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyRent\obj\Debug\EasyRent.exe
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyRent\obj\Debug\EasyRent.pdb
 C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyRent\obj\Debug\EasyRent.csproj.AssemblyReference.cache
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyRent\obj\Debug\Profile.g.cs
+C:\Users\nicoleta.cucos\Desktop\AN III\Ap. Baze\Proiect baze LSQL\EasyRent\EasyRent\obj\Debug\Profile.baml
