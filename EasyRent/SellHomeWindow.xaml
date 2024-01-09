@@ -1,0 +1,32 @@
+﻿<Window x:Class="EasyRent.SellHomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyRent"
+        mc:Ignorable="d"
+        Title="SellHomeWindow" Height="750" Width="1100"  WindowStartupLocation="CenterOwner">
+    <Grid RenderTransformOrigin="0.456,0.366">
+        <Image Source="casablurN.jpg" Margin="29,0,-28.4,0.8"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="663,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="11.973,-0.141" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="403,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.17,0.394"/>
+        <Label Content="Status" HorizontalAlignment="Left" Margin="663,44,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="29,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+        <Grid RenderTransformOrigin="0.456,0.366">
+            <Label Content="Name" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" Width="101" FontSize="14" FontWeight="Bold"/>
+            <Label Content="Address" HorizontalAlignment="Left" Margin="32,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="11.973,-0.141" FontSize="14" FontWeight="Bold"/>
+            <Label Content="Zipcode" HorizontalAlignment="Left" Margin="32,135,0,0" VerticalAlignment="Top" Width="101" FontWeight="Bold" FontSize="14"/>
+            <Label Content="Area" HorizontalAlignment="Left" Margin="401,74,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="-4.562,0.451"/>
+            <TextBox HorizontalAlignment="Left" Height="27" Margin="32,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+            <Image HorizontalAlignment="Left" Height="601" Margin="0,240,0,-120.2" VerticalAlignment="Top" Width="671" Source="casanoua.jpg"/>
+            <TextBox HorizontalAlignment="Left" Height="27" Margin="32,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296"/>
+            <TextBox HorizontalAlignment="Left" Height="27" Margin="401,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109"/>
+            <TextBox HorizontalAlignment="Left" Height="27" Margin="401,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" FontSize="14"/>
+            <TextBox HorizontalAlignment="Left" Height="481" Margin="671,240,0,-0.2" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="413"/>
+
+
+        </Grid>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="663,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" FontSize="20"/>
+
+    </Grid>
+</Window>
