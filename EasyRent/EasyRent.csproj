@@ -62,6 +62,9 @@
     <Compile Include="Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SellHomeWindow.xaml.cs">
+      <DependentUpon>SellHomeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignInWindow.xaml.cs">
       <DependentUpon>SignInWindow.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SellHomeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -164,6 +171,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Color-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="selhouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="casa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="casanoua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="casablur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="casablurN.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

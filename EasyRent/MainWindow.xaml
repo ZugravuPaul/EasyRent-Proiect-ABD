@@ -88,7 +88,7 @@
                         </Style.Triggers>
                     </Style>
                 </Border.Style>
-                <Image Height="135" Source="Sell.png"/>
+                <Image Height="135" Source="Sell.png" MouseDown="Image_MouseDown"/>
             </Border>
             <TextBlock TextWrapping="Wrap" Height="55" FontSize="18" FontFamily="Segoe UI Semibold" TextAlignment="Center"><Run/><LineBreak/><Run Text="Sell a home"/></TextBlock>
             <TextBlock TextWrapping="Wrap" TextAlignment="Center" Height="61"><Run FontSize="18" FontFamily="Times New Roman" Text="We offer you the opportunity to sell your home and embark on a new adventure! "/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>

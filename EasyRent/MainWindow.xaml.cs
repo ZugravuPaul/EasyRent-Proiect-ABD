@@ -25,9 +25,8 @@ namespace EasyRent
         {
             InitializeComponent();
             WindowStartupLocation = WindowStartupLocation.Manual;
-            Left = 100; // Setează poziția pe axa X
-            Top = 50;  // Setează poziția pe axa Y
-           
+            Left = 100; 
+            Top = 50;  
         }
 
         private void btnLogIn_Click(object sender, RoutedEventArgs e)
@@ -52,8 +51,11 @@ namespace EasyRent
 
         }
 
-
-
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            SellHomeWindow sellHome = new SellHomeWindow();
+            sellHome.ShowDialog();
+        }
     }
 
 
