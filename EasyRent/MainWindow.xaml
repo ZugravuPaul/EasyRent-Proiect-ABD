@@ -5,30 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyRent"
         mc:Ignorable="d"
-        Title="MainWindow" Height="750" Width="1100">
-    
-    <Grid>
+        Title="MainWindow" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="0,0,-0.4,-103.6">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="130*"/>
-            <ColumnDefinition Width="678*"/>
-            <ColumnDefinition Width="36*"/>
-            <ColumnDefinition Width="249*"/>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="554*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="133*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="267*"/>
             <RowDefinition Height="454*"/>
         </Grid.RowDefinitions>
-        <StackPanel HorizontalAlignment="Left" Height="29" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="1094" Grid.ColumnSpan="4">
+        <StackPanel HorizontalAlignment="Left" Height="29" Margin="0,0,-200.4,0" VerticalAlignment="Top" Width="1094" Grid.ColumnSpan="5">
         </StackPanel>
-        <Button x:Name="btnLogIn" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="29" Grid.Column="3" Margin="176.2,0,-0.4,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnLogIn_Click"/>
-        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Height="29" Grid.Column="3" Margin="101.2,0,0,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnSignIn_Click"/>
-        <Button x:Name="btnShowProfile" Content="Profile" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="29" Grid.Column="3" Margin="176.2,0,-0.4,234.2" Background="White" BorderBrush="Transparent" BorderThickness="0" Visibility="Collapsed" Click="btnShowProfile_Click"/>
-        <Image Height="306" Margin="0,28,-0.4,0" VerticalAlignment="Top" Source="Homes.jpg" Stretch="Fill" Grid.RowSpan="2" Grid.ColumnSpan="4"/>
-        <TextBlock HorizontalAlignment="Left" Margin="240.6,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="362" FontSize="22" Foreground="White" TextAlignment="Center" IsHyphenationEnabled="True" FontFamily="Segoe UI Semibold" Grid.Column="1" Grid.RowSpan="2"><Run Text="Agents. T"/><Run Text="ours. Loans. "/><Run Text="H"/><Run Text="omes"/><Run Text="."/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="374.6,1,0,0" TextWrapping="Wrap" Text="EasyRent" VerticalAlignment="Top" Height="29" FontSize="22" FontFamily="Showcard Gothic" Foreground="#FF605E5E" ForceCursor="True" TextAlignment="Center" RenderTransformOrigin="1.858,1.066" Width="125" Grid.Column="1"/>
+        <Button x:Name="btnLogIn" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="73" Height="38" Grid.Column="4" Margin="58.78,0,0,211.6" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnLogIn_Click" RenderTransformOrigin="0.5,0.508" FontWeight="Bold"/>
+        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" Width="81" Grid.Column="3" Margin="48.18,1,0,211.6" Background="White" BorderBrush="Transparent" BorderThickness="0" Click="btnSignIn_Click" RenderTransformOrigin="0.5,0.507" Grid.ColumnSpan="2" FontWeight="Bold"/>
+        <Image Height="306" Margin="0,28,-0.4,0" VerticalAlignment="Top" Source="Homes.jpg" Stretch="Fill" Grid.RowSpan="2" Grid.ColumnSpan="5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="160.6,33.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="333" Foreground="White" TextAlignment="Center" IsHyphenationEnabled="True" FontFamily="Segoe UI Semibold" Grid.Column="1" Grid.Row="1" FontSize="18"><Run Text="Agents. T"/><Run Text="ours. Loans. "/><Run Text="H"/><Run Text="omes"/><Run Text="."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="263.6,0,0,0" TextWrapping="Wrap" Text="EasyRent" VerticalAlignment="Top" Height="29" FontSize="22" FontFamily="Showcard Gothic" Foreground="#FF605E5E" ForceCursor="True" TextAlignment="Center" RenderTransformOrigin="1.858,1.066" Width="125" Grid.Column="1"/>
 
-        <Image HorizontalAlignment="Left" Height="26" Margin="334.6,2,0,0" VerticalAlignment="Top" Width="40" Source="LogoRent.png" Grid.Column="1"/>
-        <StackPanel HorizontalAlignment="Left" Height="260" Margin="29,104.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="300" Grid.ColumnSpan="2">
+        <Image HorizontalAlignment="Left" Height="26" Margin="223.6,1,0,0" VerticalAlignment="Top" Width="40" Source="LogoRent.png" Grid.Column="1" RenderTransformOrigin="1.13,0.523"/>
+        <StackPanel HorizontalAlignment="Left" Height="178" Margin="29,104.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="370" Grid.ColumnSpan="2">
             <Border x:Name="border1" Width="Auto" Height="Auto">
                 <Border.RenderTransform>
                     <ScaleTransform ScaleX="1" ScaleY="1" />
@@ -55,21 +56,21 @@
                         </Style.Triggers>
                     </Style>
                 </Border.Style>
-                <Image Height="128" Source="Buy.png"/>
+                <Image Height="88" MouseDown="Image_MouseDownBuy" Source="Buy.png" Margin="0,0,9.6,0"/>
             </Border>
-            <TextBlock TextWrapping="Wrap" Height="61" FontSize="18" FontFamily="Segoe UI Semibold" TextAlignment="Center"><Run/><LineBreak/><Run Text="Buy a home"/></TextBlock>
-            <TextBlock TextWrapping="Wrap" Height="60" FontSize="18" FontFamily="Times New Roman" TextAlignment="Center"><Run Text="Uni"/><Run Text="que"/><Run Text=" Opportunity to Become the Owner of Your Dream"/><Run Text="!"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="27" FontSize="14" FontFamily="Segoe UI Semibold" TextAlignment="Center" Margin="0,0,-0.4,0"><Run Text="Buy "/><Run Text="or rent"/><Run Text=" "/><Run Text="a home"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="53" FontSize="14" FontFamily="Times New Roman" TextAlignment="Center" Margin="0,0,-0.4,0"><Run Text="Uni"/><Run Text="que"/><Run Text=" Opportunity to Become the Owner of Your Dream"/><Run Text="!"/></TextBlock>
         </StackPanel>
 
-        <StackPanel HorizontalAlignment="Left" Height="260" Margin="273.6,104.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="300" Grid.Column="1">
-            <Border x:Name="border2" Width="Auto" Height="Auto">
+        <StackPanel HorizontalAlignment="Left" Height="199" Margin="446.6,104.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="315" Grid.Column="1" Grid.ColumnSpan="4">
+            <Border x:Name="border2" Width="Auto" Height="Auto" Margin="85,0,70.4,0">
                 <Border.RenderTransform>
                     <ScaleTransform ScaleX="1" ScaleY="1" />
                 </Border.RenderTransform>
                 <Border.Style>
-                    <Style TargetType="Border">
+                    <Style TargetType="{x:Type Border}">
                         <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
+                            <EventTrigger RoutedEvent="UIElement.MouseEnter">
                                 <BeginStoryboard>
                                     <Storyboard>
                                         <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1.1" Duration="0:0:0.3"/>
@@ -77,7 +78,7 @@
                                     </Storyboard>
                                 </BeginStoryboard>
                             </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
+                            <EventTrigger RoutedEvent="UIElement.MouseLeave">
                                 <BeginStoryboard>
                                     <Storyboard>
                                         <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1" Duration="0:0:0.3"/>
@@ -88,51 +89,12 @@
                         </Style.Triggers>
                     </Style>
                 </Border.Style>
-                <Image Height="135" Source="Sell.png" MouseDown="Image_MouseDown"/>
+                <Image Height="87" Source="Sell.png" MouseDown="Image_MouseDown" Margin="-63,0,0,0" HorizontalAlignment="Right" Width="223"/>
             </Border>
-            <TextBlock TextWrapping="Wrap" Height="55" FontSize="18" FontFamily="Segoe UI Semibold" TextAlignment="Center"><Run/><LineBreak/><Run Text="Sell a home"/></TextBlock>
-            <TextBlock TextWrapping="Wrap" TextAlignment="Center" Height="61"><Run FontSize="18" FontFamily="Times New Roman" Text="We offer you the opportunity to sell your home and embark on a new adventure! "/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+            <TextBlock TextWrapping="Wrap" Height="29" FontSize="14" FontFamily="Segoe UI Semibold" TextAlignment="Center" Margin="0,0,-18.8,0"><Run Text="Sell"/><Run Text=" a home"/></TextBlock>
+            <TextBlock TextWrapping="Wrap" TextAlignment="Center" Height="46" Margin="0,0,0.2,0" RenderTransformOrigin="0.498,0.53" FontSize="14"><Run FontFamily="Times New Roman" Text="We offer you the opportunity to sell"/><Run FontFamily="Times New Roman" Text=" or rent"/><Run FontFamily="Times New Roman" Text=" your home and embark on a new adventure! "/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
         </StackPanel>
-
-        <StackPanel HorizontalAlignment="Left" Height="260" Margin="654.6,104.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="300" Grid.ColumnSpan="3" Grid.Column="1">
-            <Border x:Name="border3" Width="Auto" Height="Auto">
-                <Border.RenderTransform>
-                    <ScaleTransform ScaleX="1" ScaleY="1" />
-                </Border.RenderTransform>
-                <Border.Style>
-                    <Style TargetType="Border">
-                        <Style.Triggers>
-                            <EventTrigger RoutedEvent="MouseEnter">
-                                <BeginStoryboard>
-                                    <Storyboard>
-                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1.1" Duration="0:0:0.3"/>
-                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1.1" Duration="0:0:0.3"/>
-                                    </Storyboard>
-                                </BeginStoryboard>
-                            </EventTrigger>
-                            <EventTrigger RoutedEvent="MouseLeave">
-                                <BeginStoryboard>
-                                    <Storyboard>
-                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1" Duration="0:0:0.3"/>
-                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1" Duration="0:0:0.3"/>
-                                    </Storyboard>
-                                </BeginStoryboard>
-                            </EventTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </Border.Style>
-                <Image Height="139" Source="Rent.png"/>
-
-            </Border>
-            <TextBlock TextWrapping="Wrap" Height="53" FontSize="18" FontFamily="Segoe UI Semibold" TextAlignment="Center"><Run/><LineBreak/><Run Text="Rent a home"/></TextBlock>
-            <TextBlock TextWrapping="Wrap" FontSize="18" FontFamily="Times New Roman" TextAlignment="Center" Height="72"><Run Text="House for Rent: Unique Opportunity for Comfort and Convenience"/><Run Text="!"/></TextBlock>
-        </StackPanel>
-        <Border Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top"
-        Margin="273.6,23.8,0,0" Width="300" Height="26" CornerRadius="10"
-        Background="#80FFFFFF" Opacity="0.8">
-            <TextBox TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-             BorderThickness="0" Background="Transparent" Margin="10,0,10,-0.4"/>
-        </Border>
+        <Button  x:Name="btnShowProfile" Content="btnShowProfile" Grid.Column="4" HorizontalAlignment="Left" Margin="58.78,0,-0.98,0" VerticalAlignment="Top" Width="75" Height="29" Background="White" BorderBrush="Transparent" BorderThickness="0" Visibility="Collapsed" Click="btnShowProfile_Click" FontWeight="Bold"/>
 
 
     </Grid>

@@ -20,13 +20,11 @@ namespace EasyRent
     public partial class MainWindow : Window
     {
         private Profile profile;
+        private SellHomeWindow sell;
         public static string UserName = null;
         public MainWindow()
         {
             InitializeComponent();
-            WindowStartupLocation = WindowStartupLocation.Manual;
-            Left = 100; 
-            Top = 50;  
         }
 
         private void btnLogIn_Click(object sender, RoutedEventArgs e)
@@ -42,19 +40,47 @@ namespace EasyRent
             signInWindow.Owner = this;
             signInWindow.ShowDialog();
         }
-      
+
         private void btnShowProfile_Click(object sender, RoutedEventArgs e)
         {
             Profile profile = new Profile();
+            profile.Owner = this;
             profile.ShowDialog();
-            //this.Close();
-
         }
 
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            SellHomeWindow sellHome = new SellHomeWindow();
-            sellHome.ShowDialog();
+            if (string.IsNullOrWhiteSpace(UserName))
+            {
+                string message = "You need to log in first.";
+                Warning customDialog = new Warning(message);
+                customDialog.Owner = this;
+                customDialog.ShowDialog();
+            }
+            else
+            {
+                SellHomeWindow sellHome = new SellHomeWindow();
+                sellHome.Owner = this;
+                sellHome.ShowDialog();
+            }
+        }
+
+        private void Image_MouseDownBuy(object sender, MouseButtonEventArgs e)
+        {
+
+            if (string.IsNullOrWhiteSpace(UserName))
+            {
+                string message = "You need to log in first.";
+                Warning customDialog = new Warning(message);
+                customDialog.Owner = this;
+                customDialog.ShowDialog();
+            }
+            else
+            {
+                Houses houses = new Houses();
+                houses.Owner = this;
+                houses.ShowDialog();
+            }
         }
     }
 

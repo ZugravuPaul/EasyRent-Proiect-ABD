@@ -5,16 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyRent"
         mc:Ignorable="d"
-        Title="Log In" Height="600" Width="500"
+        Title="Log In" Height="600" Width="900"
         WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <Style x:Key="BottomBorderTextBox" TargetType="TextBox">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+
+        <Style x:Key="BottomBorderPasswordBox" TargetType="PasswordBox">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+    </Window.Resources>
+
     <Grid Background="White">
-        <TextBlock HorizontalAlignment="Left" Margin="172,10,0,0" TextWrapping="Wrap" Text="Welcome to EasyRent" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" Width="168" Height="27"/>
-        <Label Content="Username" HorizontalAlignment="Left" Margin="100,205,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="100,295,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.912,0.533" FontWeight="Bold"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="25" Margin="100,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="25" Margin="100,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
-        <Button x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Left" Margin="100,430,0,0" VerticalAlignment="Top" Width="294" Height="41" FontSize="20" FontFamily="Segoe UI Semibold" BorderBrush="#FF4C8689" Background="#FF609792" FontWeight="Bold" Click="btnLogIn_Click"/>
-        <Image HorizontalAlignment="Left" Height="163" Margin="0,37,-0.4,0" VerticalAlignment="Top" Width="494" Source="background.jpg" Stretch="Fill"/>
+        <Image Source="backgroundblur.jpg" Stretch="Fill"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="360,5,0,0" TextWrapping="Wrap" Text="Welcome to EasyRent" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="20" Width="168" Height="27"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="290,210,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="295,282,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.912,0.533" FontWeight="Bold"/>
+        <TextBox Style="{StaticResource BottomBorderTextBox}" x:Name="txtUsername" HorizontalAlignment="Left" Height="25" Margin="290,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294"/>
+        <Button x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Left" Margin="290,419,0,0" VerticalAlignment="Top" Width="294" Height="41" FontSize="20" FontFamily="Segoe UI Semibold" BorderBrush="#FF4C8689" Background="#FF609792" FontWeight="Bold" Click="btnLogIn_Click"/>
+        <PasswordBox x:Name="txtPassword" Style="{StaticResource BottomBorderPasswordBox}" HorizontalAlignment="Left" Margin="295,324,0,0" VerticalAlignment="Top" Height="23" Width="289"/>
 
     </Grid>
 </Window>

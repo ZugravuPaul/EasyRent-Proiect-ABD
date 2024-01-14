@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Houses.xaml.cs">
+      <DependentUpon>Houses.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,13 @@
     <Compile Include="SignInWindow.xaml.cs">
       <DependentUpon>SignInWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Warning.xaml.cs">
+      <DependentUpon>Warning.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Houses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LogInWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +111,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SignInWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Warning.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -152,40 +166,40 @@
     <Resource Include="Sell.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Rent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="LogoRent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="background.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="unknown.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="lupa.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="exit.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Color-blue.png" />
+    <Resource Include="forsale.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="selhouse.jpg" />
+    <Resource Include="LogoRent.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="casa.jpg" />
+    <Resource Include="warning.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="casanoua.jpg" />
+    <Resource Include="backgroundblur.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="casablur.jpg" />
+    <Resource Include="identity.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="casablurN.jpg" />
+    <Resource Include="blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blue1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="forsalephoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="no_picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="announce.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

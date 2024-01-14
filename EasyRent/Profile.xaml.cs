@@ -24,9 +24,6 @@ namespace EasyRent
         public Profile()
         {
             InitializeComponent();
-            WindowStartupLocation = WindowStartupLocation.Manual;
-            Left = 100; // Setează poziția pe axa X
-            Top = 50;  // Setează poziția pe axa Y
             setProfileInformation();
         }
 
@@ -39,15 +36,12 @@ namespace EasyRent
             {
                 if (user.Username == MainWindow.UserName)
                 {
-                    try
+                    if (user.Photo != null && user.Photo.Length > 2)
                     {
                         BitmapImage bitmapImage = ConvertByteArrayToBitmapImage(user.Photo.ToArray());
                         profileImage.Source = bitmapImage;
                     }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Eroare la încărcarea imaginii: {ex.Message}");
-                    }
+
                     lblUsername.Content = "Username " + user.Username;
                     lblName.Content = "Name " + user.Name;
                     lblEmail.Content = "Email " + user.Email;
@@ -75,7 +69,20 @@ namespace EasyRent
             return bitmapImage;
         }
 
-        private void btnExit_Click(object sender, RoutedEventArgs e)
+        private void logoutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = (MainWindow)Owner;
+            if (mainWindow != null)
+            {
+                MainWindow.UserName = null;
+                mainWindow.btnLogIn.Visibility = Visibility.Visible;
+                mainWindow.btnSignIn.Visibility = Visibility.Visible;
+                mainWindow.btnShowProfile.Visibility = Visibility.Collapsed;
+            }
+            this.Close();
+        }
+
+        private void exitBtn_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

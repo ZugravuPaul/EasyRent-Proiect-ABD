@@ -2,10 +2,22 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EasyRentDB">
   <DataContextMoniker Name="/EasyRentDBDataContext" />
   <nestedChildShapes>
-    <classShape Id="4175623a-f2e6-472a-930c-90b26ca91688" absoluteBounds="4.125, 1.125, 2, 2.3478011067708335">
+    <classShape Id="4175623a-f2e6-472a-930c-90b26ca91688" absoluteBounds="3.375, 1, 2, 2.3478011067708335">
       <DataClassMoniker Name="/EasyRentDBDataContext/User" />
       <nestedChildShapes>
-        <elementListCompartment Id="1eeb2057-1d3e-471b-a24e-9dccd95ed829" absoluteBounds="4.14, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="1eeb2057-1d3e-471b-a24e-9dccd95ed829" absoluteBounds="3.39, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8ce8062-ede3-46ad-a2e2-513aa0b0a107" absoluteBounds="6.25, 0.625, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/EasyRentDBDataContext/Property" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a823b2e0-849d-4b46-b4b8-2ac54709fb4b" absoluteBounds="6.265, 1.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53de6012-7d54-4e6f-bca4-6eb712f67659" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/EasyRentDBDataContext/Image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="776e12df-7560-4387-a42b-0e860425612f" absoluteBounds="0.76500000000000012, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

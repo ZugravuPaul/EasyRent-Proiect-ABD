@@ -5,23 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyRent"
         mc:Ignorable="d"
-        Title="Profile"  Height="750" Width="1100">
+        Title="Profile"  Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="btnExit" Content="EXIT" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Height="28" Click="btnExit_Click"
-        Background="White" Foreground="Red" BorderBrush="White" BorderThickness="1">
-            <Button.FontWeight>
-                <FontWeight>Bold</FontWeight>
-            </Button.FontWeight>
-            <Button.Margin>
-                <Thickness>1054,0,0,0</Thickness>
-            </Button.Margin>
-        </Button>
-        <Image x:Name="profileImage" HorizontalAlignment="Left" Height="156" Margin="814,102,0,0" VerticalAlignment="Top" Width="174"/>
-        <Label x:Name="lblName" Content="Label" HorizontalAlignment="Left" Margin="83,102,0,0" VerticalAlignment="Top" Width="498"/>
-        <Label x:Name="lblUsername" Content="Label" HorizontalAlignment="Left" Margin="83,133,0,0" VerticalAlignment="Top" Width="498"/>
-        <Label x:Name="lblEmail" Content="Label" HorizontalAlignment="Left" Margin="83,164,0,0" VerticalAlignment="Top" Width="498"/>
-        <Label x:Name="lblPhoneNumber" Content="Label" HorizontalAlignment="Left" Margin="83,195,0,0" VerticalAlignment="Top" Width="498"/>
-        <Label x:Name="lblRole" Content="Label" HorizontalAlignment="Left" Margin="83,232,0,0" VerticalAlignment="Top" Width="498"/>
+
+        <Image HorizontalAlignment="Left" Height="570" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="894" Source="blue1.jpg" Stretch="Fill"/>
+        <Image x:Name="profileImage" HorizontalAlignment="Left" Height="129" Margin="33,56,0,0" VerticalAlignment="Top" Width="143" Source="unknown.png" Stretch="Fill"/>
+        <Label x:Name="lblName" Content="Label" HorizontalAlignment="Left" Margin="33,190,0,0" VerticalAlignment="Top" Width="265"/>
+        <Label x:Name="lblUsername" Content="Label" HorizontalAlignment="Left" Margin="33,216,0,0" VerticalAlignment="Top" Width="313"/>
+        <Label x:Name="lblEmail" Content="Label" HorizontalAlignment="Left" Margin="33,325,0,0" VerticalAlignment="Top" Width="498"/>
+        <Label x:Name="lblPhoneNumber" Content="Label" HorizontalAlignment="Left" Margin="33,299,0,0" VerticalAlignment="Top" Width="498"/>
+        <Label x:Name="lblRole" Content="Label" HorizontalAlignment="Left" Margin="33,242,0,0" VerticalAlignment="Top" Width="265"/>
+        <Label Content="Profile details" HorizontalAlignment="Left" Margin="46,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Canvas HorizontalAlignment="Left" Height="100" Margin="677,145,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Contact data" HorizontalAlignment="Left" Margin="33,273,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="logoutBtn" Content="Log out" HorizontalAlignment="Left" Margin="739,0,0,0" VerticalAlignment="Top" Width="80" Height="27" Background="Transparent" FontWeight="Bold" BorderThickness="0" Click="logoutBtn_Click"/>
+        <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Left" Margin="819,0,-0.4,0" VerticalAlignment="Top" Width="75" Height="27" Background="Transparent" Foreground="Red" FontWeight="Bold" BorderThickness="0" Click="exitBtn_Click"/>
+
 
     </Grid>
 </Window>
